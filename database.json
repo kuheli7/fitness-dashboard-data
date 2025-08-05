@@ -302,6 +302,255 @@
       },
       "fitness_goal": "Toning",
       "sessions": []
-    }
-  ]
+    },
+  {
+    "id": 11,
+    "name": "Ritika Sen",
+    "age": 23,
+    "gender": "F",
+    "email": "ritika.sen@example.com",
+    "phone": "+91-9012345671",
+    "join_date": "2025-06-20",
+    "subscription": {
+      "plan": "SILVER",
+      "start_date": "2025-06-20",
+      "end_date": "2025-09-20",
+      "price": 3000,
+      "status": "Active"
+    },
+    "fitness_goal": "Fat Loss",
+    "sessions": [
+      {
+        "session_id": 114,
+        "trainer": "Vikram Singh",
+        "type": "HIIT",
+        "date": "2025-08-01",
+        "time": "07:00 PM",
+        "duration_minutes": 45,
+        "attended": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Rohan Sinha",
+    "age": 31,
+    "gender": "M",
+    "email": "rohan.sinha@example.com",
+    "phone": "+91-9123456782",
+    "join_date": "2025-07-10",
+    "subscription": {
+      "plan": "GOLD",
+      "start_date": "2025-07-10",
+      "end_date": "2025-10-10",
+      "price": 4500,
+      "status": "Active"
+    },
+    "fitness_goal": "Strength Gain",
+    "sessions": [
+      {
+        "session_id": 115,
+        "trainer": "Ravi Kumar",
+        "type": "Weight Training",
+        "date": "2025-08-03",
+        "time": "06:00 PM",
+        "duration_minutes": 60,
+        "attended": true
+      },
+      {
+        "session_id": 116,
+        "trainer": "Ravi Kumar",
+        "type": "Chest Day",
+        "date": "2025-08-04",
+        "time": "06:00 PM",
+        "duration_minutes": 60,
+        "attended": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Sana Ali",
+    "age": 27,
+    "gender": "F",
+    "email": "sana.ali@example.com",
+    "phone": "+91-9234567813",
+    "join_date": "2025-05-25",
+    "subscription": {
+      "plan": "PLATINUM",
+      "start_date": "2025-05-25",
+      "end_date": "2026-05-25",
+      "price": 8000,
+      "status": "Active"
+    },
+    "fitness_goal": "Flexibility",
+    "sessions": [
+      {
+        "session_id": 117,
+        "trainer": "Priya Sharma",
+        "type": "Pilates",
+        "date": "2025-08-02",
+        "time": "08:00 AM",
+        "duration_minutes": 50,
+        "attended": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Nikhil Rao",
+    "age": 34,
+    "gender": "M",
+    "email": "nikhil.rao@example.com",
+    "phone": "+91-9345678924",
+    "join_date": "2025-01-15",
+    "subscription": {
+      "plan": "BRONZE",
+      "start_date": "2025-01-15",
+      "end_date": "2025-07-15",
+      "price": 1800,
+      "status": "Expired"
+    },
+    "fitness_goal": "Basic Fitness",
+    "sessions": []
+  },
+  {
+    "id": 15,
+    "name": "Isha Gupta",
+    "age": 26,
+    "gender": "F",
+    "email": "isha.gupta@example.com",
+    "phone": "+91-9456789035",
+    "join_date": "2025-04-12",
+    "subscription": {
+      "plan": "GOLD",
+      "start_date": "2025-04-12",
+      "end_date": "2025-10-12",
+      "price": 4500,
+      "status": "Active"
+    },
+    "fitness_goal": "Lean Muscle",
+    "sessions": [
+      {
+        "session_id": 118,
+        "trainer": "Anita Joshi",
+        "type": "Zumba",
+        "date": "2025-08-04",
+        "time": "06:00 PM",
+        "duration_minutes": 45,
+        "attended": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Aditya Das",
+    "age": 29,
+    "gender": "M",
+    "email": "aditya.das@example.com",
+    "phone": "+91-9567890146",
+    "join_date": "2025-03-05",
+    "subscription": {
+      "plan": "SILVER",
+      "start_date": "2025-03-05",
+      "end_date": "2025-06-05",
+      "price": 3000,
+      "status": "Expired"
+    },
+    "fitness_goal": "Cardiovascular Health",
+    "sessions": []
+  },
+  {
+    "id": 17,
+    "name": "Meera Nair",
+    "age": 33,
+    "gender": "F",
+    "email": "meera.nair@example.com",
+    "phone": "+91-9678901257",
+    "join_date": "2025-06-01",
+    "subscription": {
+      "plan": "PLATINUM",
+      "start_date": "2025-06-01",
+      "end_date": "2026-06-01",
+      "price": 8000,
+      "status": "Active"
+    },
+    "fitness_goal": "Mobility and Recovery",
+    "sessions": [
+      {
+        "session_id": 119,
+        "trainer": "Priya Sharma",
+        "type": "Deep Stretch",
+        "date": "2025-08-05",
+        "time": "07:00 AM",
+        "duration_minutes": 60,
+        "attended": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ankit Singh",
+    "age": 38,
+    "gender": "M",
+    "email": "ankit.singh@example.com",
+    "phone": "+91-9789012368",
+    "join_date": "2025-02-20",
+    "subscription": {
+      "plan": "BRONZE",
+      "start_date": "2025-02-20",
+      "end_date": "2025-08-20",
+      "price": 1800,
+      "status": "Expiring Soon"
+    },
+    "fitness_goal": "Stress Reduction",
+    "sessions": []
+  },
+  {
+    "id": 19,
+    "name": "Kavya Iyer",
+    "age": 22,
+    "gender": "F",
+    "email": "kavya.iyer@example.com",
+    "phone": "+91-9890123479",
+    "join_date": "2025-07-10",
+    "subscription": {
+      "plan": "SILVER",
+      "start_date": "2025-07-10",
+      "end_date": "2025-10-10",
+      "price": 3000,
+      "status": "Active"
+    },
+    "fitness_goal": "Endurance",
+    "sessions": [
+      {
+        "session_id": 120,
+        "trainer": "Anita Joshi",
+        "type": "Tabata",
+        "date": "2025-08-03",
+        "time": "05:00 PM",
+        "duration_minutes": 30,
+        "attended": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Vikram Shah",
+    "age": 36,
+    "gender": "M",
+    "email": "vikram.shah@example.com",
+    "phone": "+91-9901234580",
+    "join_date": "2025-08-01",
+    "subscription": {
+      "plan": "GOLD",
+      "start_date": "2025-08-01",
+      "end_date": "2025-11-01",
+      "price": 4500,
+      "status": "Active"
+    },
+    "fitness_goal": "Body Recomposition",
+    "sessions": []
+  }
+ ]
 }
